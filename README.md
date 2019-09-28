@@ -1,10 +1,10 @@
 # LIRI-bot
 
 concert function working
-![Concert](concert.png)
+![Concert](https://raw.githubusercontent.com/Aphelion01237/LIRI-bot/master/concert.PNG)
 
 spotify function working
-![Spotify](spotify.png)
+![Spotify](https://raw.githubusercontent.com/Aphelion01237/LIRI-bot/master/spotify.png)
 
 movie search working
-![Movie](movie.png)
+![Movie](https://raw.githubusercontent.com/Aphelion01237/LIRI-bot/master/movie.png)
