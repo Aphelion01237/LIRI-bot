@@ -14,7 +14,6 @@ function concertFinder() {
     var artist = userInput;
     axios("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=anyplaceholderwilldo").then(function (response) {
 
-        console.log(response);
         response.data.forEach((event) => {
             console.log("******************")
             console.log("Venue: " + event.venue.name)
@@ -116,7 +115,7 @@ function liriBot(userRequest) {
             break;
         case "movie-this":
             if (!userInput) {
-                console.log("*******You did not pick a movie.********")
+                console.log("Y U NO PICK")
                 userInput = "Mr. Nobody"
             }
             movieFinder(userInput);
