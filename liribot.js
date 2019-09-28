@@ -12,9 +12,9 @@ liriBot(userRequest);
 
 function concertFinder() {
     var artist = userInput;
-    axios("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then(function (response) {
+    axios("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=anyplaceholderwilldo").then(function (response) {
 
-        console.log(response.data);
+        console.log(response);
         response.data.forEach((event) => {
             console.log("******************")
             console.log("Venue: " + event.venue.name)
